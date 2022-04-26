@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,500;1,700&family=Tapestry&family=Water+Brush&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Tapestry", cursive;
+  font-family: "Water Brush", "Tapestry", cursive, "Roboto", Arial, sans-serif;
+  background-color: #e8f1f2;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+  padding: 4px 10px;
+  /* border-bottom: 0.2px solid #4c1c00; */
+  box-shadow: 0 0 3px red inset;
+}
+
+.navbar .logo {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.navbar .addpost {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50% 50%;
+  box-shadow: 2px 2px 2px black;
+  cursor: pointer;
+}
+
+.navbar .nav {
+  flex: 1;
+  text-align: center;
+}
+
+.nav .linklist {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.linkitem {
+  display: inline-block;
+}
+
+a {
+  color: #4c1c00;
+}
+
+.links {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 0 5px;
+}
+
+.landing-image {
+  height: calc(100vh - 47px);
+  width: 100%;
+  padding: 0;
+}
+
+.landingpic {
+  width: 100%;
+  height: 100%;
+}
+
+.second-container {
+  height: fit-content;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.cards {
+  display: inline-block;
+  object-fit: contain;
+}
+
+.videos {
+  width: 400px;
+  padding: 0 10px;
+  height: 400px;
+}
